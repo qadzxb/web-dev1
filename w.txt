@@ -1,0 +1,42 @@
+bài giảng
+external css
+internal css
+indine css
+
+nối các ô trong bảng
+
+html list có 2 loại
+có stt
+<ol>   //có thể đổi stt bằng type="I"
+ 	<li> mục1</li>
+ 	<li> mục 2</li>
+</ol>
+
+không có stt
+<ul> //đổi bằng type="square"
+ 	<li>mục1</li>
+ 	<li>....</li>
+</ul>
+
+*NOTE: các danh sách có thể lồng nhau
+
+BLOCK HTML
+luôn được bắt đầu trên một dòng mới, trình duyệt tự động thêm khoảng trắng vào trước và sau mỗi phần từ
+mỗi thẻ block luôn chiếm dụng full độ rộng màn hình
+Các thẻ thuộc nhóm block <h1>...<h6>;<p>;<li>;<ol>;<ul>;<div>...
+
+INLINE HTML
+không được bắt đầu trên một dòng mới, chỉ chiếm độ rộng vừa đủ nội dung
+các thẻ inline:<span>;<a>;<img>;<sub>;<sup>...
+
+Div HTML
+được sử dụng như một khối container để chứa các thẻ html khác
+
+CLASS và ID
+class: là thuộc tính được sử dụng của một lớp của 1 phần tử html
+nhiều phần tử html có thể dùng chung 1 tên lớp
+
+id: là thuộc tính duy nhất
+
+ĐƯỜNG DẪN CÁC FILE HTML
+đường dẫn của file mô tả vị trí của file trong cấu trúc thư mục website
