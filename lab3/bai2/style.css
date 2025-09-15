@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h2 {
+    text-align: center;
+    color:rgb(2, 145, 202);
+}
+form {
+    width: 400px;
+    margin:auto;
+    padding: 20px;
+    background-color: #ffffe0;
+    border:1px solid #999;
+    border-radius: 5px;
+}
+label {
+    display: block;
+    margin-top: 4px;
+    color: rgb(2, 145, 202);
+}
+input[type=text], input[type=number], select, textarea {
+    width: 100%;
+    padding:6px;
+    margin-top: 4px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=checkbox], input[type=radio] {
+    margin-top: 8px;
+}
+.radio-group {
+    margin-top:5px;
+}
+.radio-group label{
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+}
+fieldset {
+    border: 1px solid red;
+    padding: 10px;
+    margin-top: 10px;
+}
+fieldset legend {
+    font-weight: bold;
+    color: red;
+}
+button {
+    background-color: gray;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin:15px auto;
+}
+.note {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}

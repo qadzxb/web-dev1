@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dang ki du lich</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Đăng ký du lịch</h2>
+    <form action="Dangkydulich.php">
+        <label for="hoten">Họ và tên:</label>
+        <input type="text" id="hoten" name="hoten" value="Phạm Ngọc Cẩm Đào">
+
+        <label for="diachi">Địa chỉ:</label>
+        <input type="text" id="diachi" name="dienthoai" value="277 Nguyễn Văn Cừ">
+
+        <label for="dienthoai">Điện thoại:</label>
+        <input type="text" id="dienthoai" name="dienthoai" value="8351056">
+
+        <label>
+            <input type="checkbox" checked> Khách Việt Nam
+        </label>
+
+        <label for="tour">Chọn tour:</label>
+        <select id="tour" name="tour">
+            <option>Buôn mê thuột- Gia lai-Kontum</option>
+            <option>Hạ Long-Hải Phòng</option>
+        </select>
+
+        <label>Phương tiện:</label>
+        <input type="radio" id="maybay" name="pt" value="maybay">
+        <label for="Máy bay">Máy bay</label>
+        <input type="radio" id="oto" name="pt" value="oto">
+        <label for="oto">Xe ô tô</label>
+
+       <fieldset>
+        <legend><i>Số lượng đoàn khách<i></legend>
+        Người lớn: <input type="number" value="6" min="0">
+        Trẻ em: <input type="number" value="4" min="0">
+       </fieldset>
+
+        <label for="ghichu">Ghi chú thêm</label>
+        <textarea id="ghichu" rows="3">có 2 trẻ em dưới 6 tuổi
+Có 2 người ăn chay</textarea>
+
+        <button type="submit">Đồng ý</button>
+
+        <p class="note">Bạn đã đăng ký thành công!!!</p>
+    </form>
+</body>
+</html>
